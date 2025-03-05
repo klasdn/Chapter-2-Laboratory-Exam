@@ -1,0 +1,24 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+
+double prelim = 0, midterm = 0, endterm = 0, grade = 0;
+
+cout << "Enter Prelim grade where it must not exceed 20%: ";
+cin >> prelim;
+cout <<"\n\n";
+cout << "Enter Midterm grade where it must not exceed 30%: ";
+cin >> midterm;
+cout <<"\n\n";
+cout << "Enter Endterm grade where it must not exceed 50%: ";
+cin >> endterm;
+cout <<"\n\n";
+grade = (prelim + midterm + endterm);
+cout <<"\n\n";
+cout << "The total grade of the semester is: "<<grade<<".";
+return 0;
+}
