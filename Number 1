@@ -1,0 +1,24 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+
+double dollar = 50.74, total = 0.00;
+
+int peso = 0;
+
+cout << "\n\n";
+
+cout <<"\t Enter the Peso amount to convert to dollars:";
+
+cin >> peso;
+
+total = (peso * dollar);
+
+cout <<"\n";
+cout <<"\t The converted amount is " << total <<".";
+return 0;
+}
