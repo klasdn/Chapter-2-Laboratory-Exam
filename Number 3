@@ -1,0 +1,25 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+    
+string name = "Allie Pomperada";
+
+double hourlypay = 84.50, total = 0.00;
+
+int hoursworked = 40;
+
+total = (hourlypay * hoursworked);
+
+cout <<"\tEmployee Name: "<<name<<"";
+cout << "\n\n";
+cout <<"\tHourly pay: "<<hourlypay<<"";
+cout << "\n\n";
+cout <<"\tHours worked: "<<hoursworked<<"";
+cout << "\n\n";
+cout <<"\tWeekly wage: "<<total<<"";
+return 0;
+}
