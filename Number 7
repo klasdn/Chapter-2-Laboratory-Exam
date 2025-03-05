@@ -1,0 +1,20 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+
+double Distance = 5400, Speed = 220, Time = 0;
+
+Time = (Distance / Speed);
+
+cout << "Distance traveled: "<<Distance<< " m";
+cout <<"\n\n";
+cout << "Speed traveled: "<<Speed<< " mph";
+cout <<"\n\n";
+cout << "Time traveled: "<<Time<< " h";
+cout <<"\n\n";
+return 0;
+}
