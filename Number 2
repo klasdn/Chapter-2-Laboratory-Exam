@@ -1,0 +1,24 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+
+double pi = 3.14159, total = 0.00;
+
+int radius = 0;
+
+cout << "\n\n";
+
+cout <<"\t Enter the radius of the sphere to find the volume:";
+
+cin >> radius;
+
+total = (4/3 * pi * radius * 3);
+
+cout <<"\n";
+cout <<"\t The volume of the sphere is " << total <<".";
+return 0;
+}
