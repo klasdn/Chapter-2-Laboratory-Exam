@@ -1,0 +1,22 @@
+#include <iostream> 
+
+using namespace std;
+
+int main()
+
+{
+
+string client = "Jacob Samuel";
+double initialMoney = 25000, interestRate = 0.12, withHoldingTax = .10, days = 30, tax = 0, netInterest = 0;
+tax = (initialMoney * interestRate * days/365 * withHoldingTax);
+netInterest = (initialMoney * interestRate * days/365 - tax);
+cout << "Client's name: "<<client<<"";
+cout <<"\n";
+cout << "Client's initial money: PHP "<<initialMoney<<"";
+cout <<"\n";
+cout << "Client's withholding tax: PHP "<<tax<<"";
+cout <<"\n";
+cout << "Client's net interest: PHP "<<netInterest<<"";
+cout <<"\n";
+return 0;
+}
